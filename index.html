@@ -1,11 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
+
 <body>
-    
+    <div> <!-- Container Div -->
+        <div> <!-- Text View Taglist starts here -->
+            <h1>Text View Taglist</h1>
+            <div class="tag"> <!-- tag class is the background of every portion -->
+                <h2>#Paragraph Tag</h2>
+                <div class="code"><b>Code:</b> <!-- code class is for the portion with the code -->
+                    <pre>&lt;p&gt;This is a paragraph&lt;/p&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br> <!-- preview class is for he portion with the preview -->
+                    <p>This is a paragraph</p>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Heading Tag</h2>
+                <div class="code"><b>Code:</b>
+                    <pre>&lt;h1&gt;This is a heading&lt;/h1&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <h1>This is a heading</h1>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Italic Tag</h2>
+                <div class="code"><b>Code:</b>
+                    <pre>&lt;i&gt;This is written in Italic&lt;/i&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <i>This is written in Italic</i>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Bold Tag</h2>
+                <div class="code"><b>Code:</b>
+                    <pre>&lt;b&gt;This is written in Bold&lt;/b&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <b>This is written in Bold</b>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Underline Tag</h2>
+                <div class="code"><b>Code:</b>
+                    <pre>&lt;u&gt;This is written with underlines&lt;/u&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <u>This is written with underlines</u>
+                </div>
+            </div>
+        </div>
+        <div> <!-- input style taglist starts here -->
+            <h1>Input Style Taglist</h1>
+            <div class="tag">
+                <h2>#Button Input</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;input type="button" value="Button"&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <input type="button" value="Button">
+                </div>
+
+            </div>
+            <div class="tag">
+                <h2>#Text Input</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;input type="text"&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <input type="text"> Text
+                </div>
+
+            </div>
+            <div class="tag">
+                <h2>#Password Input</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;input type="password"&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <input type="password"> Password
+                </div>
+
+            </div>
+            <div class="tag">
+                <h2>#Checkbox Input</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;input type="checkbox"&gt; Check here</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <input type="checkbox"> Check here
+                </div>
+
+            </div>
+            <div class="tag">
+                <h2>#Radio Input</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;input type="Radio"&gt; Click here</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <input type="Radio"> Click here
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Image Input</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;input type="image" src="Untitled.png" width="25px height="25px"&gt; Click here</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <input type="image" src="Untitled.png" width="25px" height="25px"> Click here
+                </div>
+            </div>
+        </div>
+        <div> <!-- Link taglist starts here -->
+            <h1>#Link taglist</h1>
+            <div class="tag">
+                <h2>#Clickable Link</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;a href="https://www.google.com/"&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b>
+                    <a href="https://www.google.com/">Google</a>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Image Tag</h2>
+                <div class="code"><b>Code</b>
+                    <pre>&lt;img src="Untitled.jpeg alt="Sunflowers&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b>
+                    <img src="Untitled.jpeg" alt="Sunflowers" height="200px" width="200px">
+                </div>
+            </div>
+
+        </div>
+        <div> <!-- list taglist starts here -->
+            <h1>#List Taglist</h1>
+            <div class="tag">
+                <h2>#Unordered List</h2>
+                <div class="code"><b>Code:</b>
+                  <pre>&lt;ul&gt;<br>&lt;li&gt;Sugar&lt;/li&gt;<br>&lt;li&gt;Spice&lt;/li&gt;<br>&lt;li&gt;Everything Nice&lt;/li&gt;<br>&lt;/ul&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                   <ul>
+                    <li>Sugar</li>
+                    <li>Spice</li>
+                    <li>Everything Nice</li>
+                   </ul>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Ordered List</h2>
+                <div class="code"><b>Code:</b>
+                  <pre>&lt;ol&gt;<br>&lt;li&gt;Sugar&lt;/li&gt;<br>&lt;li&gt;Spice&lt;/li&gt;<br>&lt;li&gt;Everything Nice&lt;/li&gt;<br>&lt;/ol&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                   <ol>
+                    <li>Sugar</li>
+                    <li>Spice</li>
+                    <li>Everything Nice</li>
+                   </ol>
+                </div>
+            </div>
+            <div class="tag">
+                <h2>#Description List</h2>
+                <div class="code"><b>Code:</b>
+                    <pre>&lt;dl&gt;<br>&lt;dt&gt;Cake&lt;/dt&gt;<br>&lt;dd&gt;Baked Dry Food&lt;/dd&gt;<br>&lt;dt&gt;Soup&lt;/dt&gt;<br>&lt;dd&gt;Liquid Food&lt;/dd&gt;<br>&lt;dl&gt;</pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <dl>
+                        <dt>Cake</dt>
+                        <dd>Baked Dry Food</dd>
+                        <dt>Soup</dt>
+                        <dd>Liquid Food</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div> <!-- Table tag starts here -->
+            <h1>#Table Tag</h1>
+            <div class="tag">
+                <h2>#Table</h2>
+                <div class="code"><b>Code:</b>
+                    <pre>&lt;table&gt;<br>&lt;tr&gt;<br>&lt;th&gt;Name&lt;/th&gt;<br>&lt;th&gt;Age&lt;/th&gt;<br>&lt;th&gt;Gender&lt;/th&gt;<br>&lt;/tr&gt;<br>&lt;tr&gt;<br>&lt;td&gt;John Doe&lt;/td&gt;<br>&lt;td&gt;28&lt;/td&gt;<br>&lt;td&gt;Male&lt;/td&gt;<br>&lt;/tr&gt;<br>&lt;/table&gt;
+                    </pre>
+                </div>
+                <div class="preview"><b>View:</b><br>
+                    <table>
+                        <tr>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>Gender</th>
+                        </tr>
+                        <tr>
+                            <td>John Doe</td>
+                            <td>28</td>
+                            <td>Male</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
+
 </html>
