@@ -4,19 +4,25 @@ body {
     padding: 0;
 }
 .container {
-    display: flex;
-    min-height: 100vh;
+    
+    height: 85vh;
 }
 .sidebar {
+    padding: 10px;
+    float: left;
+    position: static;
     width: 200px;
     background-color: wheat;
+    height: 83vh;
 }
 .main-content {
-    padding: 20px;
+    text-align: center;
+    position: static;
+    padding: 30px;
 }
 header, footer {
+    
     background-color: #333;
     color: whitesmoke;
-    text-align: center;
-    padding: 10px 0;
+    padding: 15px;
 }

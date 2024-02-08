@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 85vh;
+}
+.sidebar {
+    padding: 10px;
+    float: left;
+    position: static;
+    width: 800px;
+    background-color: wheat;
+    height: 83vh;
+}
+.main-content {
+    text-align: none;
+    position: static;
+    padding: 30px;
+}
+header, footer {
+    
+    background-color: #333;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.static-box {
+    position: static;
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}

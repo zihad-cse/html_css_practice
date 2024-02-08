@@ -2,14 +2,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.container {
+   height: 200vh;
+    position: relative;
 
-.parent {
+}
+
+.parent-1 {
+    float: left;
     text-align: center;
     padding: 10px;
     width: 40%;
-    height: 400em;
+    height: fit-content;
     margin: 20px;
-    background-color: cadetblue;
+    background-color: rgb(217, 235, 115);
     border: 10px;
     border-style: solid;
     position: relative;
@@ -17,7 +23,7 @@
 
 }
 
-.child-1 {
+.child-1a {
     padding: 5px;
     margin: 5px;
     background-color: aliceblue;
@@ -28,7 +34,7 @@
     top: 0%;
 }
 
-.child-2 {
+.child-2a {
     padding: 5px;
     margin: 5px;
     background-color: aliceblue;
@@ -40,7 +46,7 @@
 
 }
 
-.child-3 {
+.child-3a {
     padding: 5px;
     margin: 5px;
     background-color: aliceblue;
@@ -48,5 +54,152 @@
     border-style: solid;
     border-radius: 10px;
     position: sticky;
+    top: 4%;
+}
+.parent-2 {
+    float: right;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    height: fit-content;
+    margin: 20px;
+    background-color: cadetblue;
+    border: 10px;
+    border-style: solid;
+    position: relative;
+    border-radius: 20px;
+    
+
+}
+
+.child-1b {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+    top: 0%;
+}
+
+.child-2b {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+    top: 2%;
+
+}
+
+.child-3b {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: relative;
+    top: 4%;
+}
+.parent-3 {
+    float: right;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    height: fit-content;
+    margin: 20px;
+    background-color: rgb(196, 89, 160);
+    border: 10px;
+    border-style: solid;
+    position: relative;
+    border-radius: 20px;
+    
+
+}
+
+.child-1c {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: static;
+    top: 0%;
+}
+
+.child-2c {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: static;
+    top: 2%;
+
+}
+
+.child-3c {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: static;
+    top: 4%;
+}
+.parent-4 {
+    float: left;
+    text-align: center;
+    padding: 10px;
+    width: 40%;
+    height: fit-content;
+    margin: 20px;
+    background-color: rgb(216, 81, 88);
+    border: 10px;
+    border-style: solid;
+    position: relative;
+    border-radius: 20px;
+    
+
+}
+
+.child-1d {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 0%;
+}
+
+.child-2d {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute;
+    top: 2%;
+
+}
+
+.child-3d {
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    position: absolute  ;
     top: 4%;
 }

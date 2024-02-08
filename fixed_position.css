@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    height: 1000px;
+}
+.sidebar {
+    padding: 10px;
+    float: left;
+    position: static;
+    width: 800px;
+    background-color: wheat;
+    height: 980px;
+}
+.main-content {
+    text-align: none;
+    position: relative;
+    padding: 30px;
+}
+header, footer {
+    
+    background-color: #333;
+    color: whitesmoke;
+    padding: 15px;
+}
+
+.fixed-box {
+    position: fixed;
+    top: 200px;
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
