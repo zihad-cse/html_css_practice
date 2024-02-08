@@ -6,13 +6,13 @@ body {
 }
 
 a:link {
-    color: green;
+    color: rgb(0, 0, 0);
     background-color: transparent;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(113, 230, 133);
+    color: rgb(230, 113, 113);
     background-color: transparent;
     text-decoration: none;
 }
@@ -28,19 +28,32 @@ a:active {
     background-color: transparent;
     text-decoration: none;
 }
+
 ul {
+    width: fit-content;
     list-style-type: none;
     margin: 0px;
     padding: 0px;
 }
+
 .navbar li {
     display: inline;
     position: relative;
-    top: 20px;
+    padding: 20px;
     margin: 10px;
-    padding: 10px;
-    
 }
+.navbar li a:hover {
+    background-color: #111;
+}
+.navbar li a {
+    display: block, inline;
+    padding: 20px;
+  
+}
+.navbar ul {
+    padding: 20px;
+}
+
 .container {
     display: flex;
     height: 1000px;
@@ -48,20 +61,31 @@ ul {
 
 .sidebar {
     padding: 10px;
-
     position: static;
     width: 200px;
     background-color: wheat;
     height: 980px;
 }
-
+.sidebar li {
+    display: block;
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+}
+.sidebar li a:hover{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.sidebar li a {
+    display: block;
+    padding: 20px;
+}
 .navbar {
     color: white;
     padding: 10px;
     position: static;
     width: auto;
     background-color: #333;
-    height: 100px;
+    height: 70px;
     position: sticky;
     top: 0px;
 }

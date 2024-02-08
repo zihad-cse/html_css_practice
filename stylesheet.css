@@ -3,22 +3,64 @@
 }
 
 .tag {
-    
-    background-color:rgb(104, 189, 48);
+
+    background-color: rgb(104, 189, 48);
     color: black;
     width: 35%;
 }
+
 .code {
     background-color: rgba(104, 189, 48, 0.452);
     color: black(0, 0, 0);
 }
+
 .preview {
-    background-color:rgba(104, 189, 48, 0.575);
+    background-color: rgba(104, 189, 48, 0.575);
     color: black;
 }
-td, th, table {
+
+td,
+th,
+table {
     width: 50%;
     text-align: left;
     border: 1px solid black;
     border-collapse: collapse;
+}
+
+.home-button a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home-button a:visited {
+    color: rgb(113, 230, 133);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home-button a:hover {
+    color: rgb(145, 255, 0);
+    background-color: #333;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.home-button a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.home-button a {
+    position: fixed;
+    right: 10%;
+    display: block;
+    padding: 20px;
+    margin: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
 }
