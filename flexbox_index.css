@@ -1,0 +1,7 @@
+.flexbox-container-1 {
+    display: flex;
+    background-color: grey;
+    height: 200px;
+    width: 100%;
+    border: solid, 1px;
+}
