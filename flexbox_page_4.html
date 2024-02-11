@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexbox_index.css">
+</head>
+
+<body>
+    <div class="flexbox-container-button">
+        <a href="flexbox_index.html">Home</a>
+        <a href="flexbox_page_3.html">Back</a>
+        <a href="flexbox_page_5.html">Next</a>
+    </div>
+    <div>
+        <div class="flexbox-container-5">
+            <div class="flexbox-child-4a flexbox-child"></div>
+            <div class="flexbox-child-4b flexbox-child"></div>
+            <div class="flexbox-child-4c flexbox-child"></div>
+        </div>
+        <div class="paragraph">
+            <p>Aligning content within a flexbox can be simplified further. We can imagine there are two axes. The "Main
+                Axis" and the "Cross Axis". <br>
+                The Main Axis goes through the middle of the containing div horizontally. Whereas the cross axis goes
+                through the middle vertically.<br>
+                In CSS. The [align-items] attribute is the cross axis. So if content needs to be aligned vertically,
+                that attribute is used. And [justify-content] Is the main axis, so if content needs to be aligned
+                horizontally that attribute is used.<br>
+                Above, an example is shown where the children boxes are aligned vertically to start from the top using
+                the [align-items: flex-start] attribute in the container div. and it is aligned horizontally to have
+                space around the children div with the Main Axis attribute [justify-content: space-around].</p>
+        </div>
+    </div>
+</body>
+
+</html>

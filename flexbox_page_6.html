@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <link rel="stylesheet" href="flexbox_index.css">
+</head>
+
+<body>
+    <div class="flexbox-container-button">
+        <a href="flexbox_index.html">Home</a>
+        <a href="flexbox_page_5.html">Back</a>
+    </div>
+    <div>
+        <div class="flexbox-container-8">
+            <div class="flexbox-child-7a flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">flex-shrink: 0;</p>
+            </div>
+            <div class="flexbox-child-7b flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">flex-grow: 1;</p>
+            </div>
+            <div class="flexbox-child-7c flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">flex-grow: 2;</p>
+            </div>
+        </div>
+        <div class="paragraph">
+            <p>Just as the flexbox properties of the containing flexbox can be manipulated. The children flexboxes of
+                the parent flexbox can be manipulated as well using flex attributes. <br>
+                Above, are a few of the attributes. The [flex-shrink: 0;] makes it so that the flexbox does not shrink
+                below it's original size when the viewport is shrunken. <br>
+                [flex-grow: 1;] makes the flexbox grow to fill up any remaining space there is in the parent box. <br>
+                and [flex-grow: 2;] makes sure that the box grows at least twice as much or more than the flexbox with
+                the value set as 1. <br> To make it grow exactly twice as much as the box with [flex-grow: 1;] we need
+                to add the [flex-basis: 0;] property. What that'll do is that will make the box imagine that it's
+                starting off from 0 width and then makes it exactly double. The example for it is given below.</p>
+        </div>
+        <div class="flexbox-container-9">
+            <div class="flexbox-child-8a flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">flex-shrink: 0; <br>
+                    lorem</p>
+            </div>
+            <div class="flexbox-child-8b flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">flex-grow: 1;</p>
+            </div>
+            <div class="flexbox-child-8c flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">flex-grow: 2; <br> flex-basis: 0;</p>
+            </div>
+        </div>
+        <div class="flexbox-container-10">
+            <div class="flexbox-child-9a flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">Child 1</p>
+            </div>
+            <div class="flexbox-child-9b flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">Child 2</p>
+            </div>
+            <div class="flexbox-child-9c flexbox-child">
+                <p style="font-family: Arial, Helvetica, sans-serif;">Child 3</p>
+            </div>
+        </div>
+        <div class="paragraph">
+            <p>The alignment of the items can be overridden and can be changed individually using the [align-self]
+                property. Whichever child flexbox has this property will override the parent's alignment rules and align
+                itself based on the stated rules in self-align. <br>
+                In the example above, "Child 2" has the property of [self-align: center;] which made it ignore the
+                [align-items: stretch;] property set in the parent box and centered itself.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
