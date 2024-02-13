@@ -1,24 +1,28 @@
 /* CSS for basichtmltags.html */
 
 
-* {
+body {
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #777;
 }
 
 .tag {
-
-    background-color: rgb(104, 189, 48);
+    padding: 5px 10px;
+    margin: 20px;
+    background-color: #999;
     color: black;
     width: 35%;
 }
 
 .code {
-    background-color: rgba(104, 189, 48, 0.452);
+    background-color: #999;
     color: black(0, 0, 0);
 }
 
 .preview {
-    background-color: rgba(104, 189, 48, 0.575);
+    background-color: #999;
     color: black;
 }
 
@@ -32,14 +36,14 @@ table {
 }
 
 .home-button a:link {
-    color: green;
-    background-color: transparent;
+    color: white;
+    background-color: black;
     text-decoration: none;
 }
 
 .home-button a:visited {
-    color: rgb(113, 230, 133);
-    background-color: transparent;
+    color: white;
+    background-color: black;
     text-decoration: none;
 }
 

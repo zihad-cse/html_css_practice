@@ -5,24 +5,48 @@ body {
 }
 .container {
     display: flex;
-    height: 85vh;
+    align-items: stretch;
+    background-color: #777;
 }
 .sidebar {
+    color: white;
     padding: 10px;
-    float: left;
-    position: static;
+    align-self: left;
+    position: relative;
     width: 800px;
-    background-color: wheat;
-    height: 83vh;
+    background-color: #333;
 }
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar li {
+    display: block;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+}
+
+
+
+
 .main-content {
     text-align: none;
     position: static;
     padding: 30px;
+    height: 85vh;
 }
 header, footer {
     
-    background-color: #333;
+    background-color: #111;
     color: whitesmoke;
     padding: 15px;
 }

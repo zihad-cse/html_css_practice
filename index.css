@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+    height: fit-content;
+}
+
+header h1 {
+    padding-left: 40px;
+}
+
+
+a:link {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+ul {
+    width: fit-content;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar li a:link {
+    color: white;
+}
+
+.navbar li a:visited {
+    color: white;
+}
+
+.navbar li {
+    display: inline;
+    position: static;
+    padding: 20px;
+    margin: 10px;
+}
+.navbar li a:hover {
+    background-color: #555;
+}
+.navbar li a {
+    display: block, inline;
+    padding: 20px;
+  
+}
+.navbar ul {
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    height: fit-content
+}
+
+.sidebar {
+    padding: 10px;
+    position: static;
+    width: 200px;
+    background-color: #333;
+    height: 980px;
+}
+
+.index-list li{
+    display: inline;
+    margin-left: 20px;
+}
+
+.index-list li a {
+    display: block, inline;
+    padding: 20px;
+  
+}
+
+.index-list li a:hover {
+    background-color: #111;
+}
+
+.sidebar li {
+    display: block;
+    position: static;
+    padding: 10px;
+    margin: 10px;
+}
+.sidebar li a:hover{
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.sidebar li a {
+    display: block;
+    padding: 20px;
+}
+.navbar {
+    color: white;
+    padding: 10px;
+    position: static;
+    width: auto;
+    background-color: #111;
+    height: 70px;
+    position: sticky;
+    top: 0px;
+}
+
+.main-content {
+    text-align: none;
+    position: static;
+    padding: 30px;
+}
+
+header,
+footer {
+
+    background-color: #333;
+    color: whitesmoke;
+    padding: 15px;
+}

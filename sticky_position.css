@@ -6,15 +6,48 @@ body {
 .container {
     display: flex;
     height: 2000px;
+    background-color: #777;
+
 }
 .sidebar {
     padding: 10px;
-    float: left;
+    
     position: static;
     width: 800px;
     background-color: wheat;
     height: 1980px;
 }
+
+.sidebar {
+    color: white;
+    padding: 10px;
+    align-self: left;
+    position: relative;
+    width: 800px;
+    background-color: #333;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar li {
+    display: block;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+}
+
+
+
+
 .main-content {
     text-align: none;
     position: static;
@@ -22,7 +55,7 @@ body {
 }
 header, footer {
     
-    background-color: #333;
+    background-color: #111;
     color: whitesmoke;
     padding: 15px;
 }
