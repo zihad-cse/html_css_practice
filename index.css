@@ -87,7 +87,7 @@ ul {
 }
 
 .index-list li a {
-    display: block, inline;
+    display: inline-block;
     padding: 20px;
   
 }
@@ -97,7 +97,7 @@ ul {
 }
 
 .sidebar li {
-    display: block;
+    display: inline;
     position: static;
     padding: 10px;
     margin: 10px;
@@ -129,7 +129,7 @@ ul {
 header,
 footer {
 
-    background-color: #333;
+    background-color: #777;
     color: whitesmoke;
     padding: 15px;
 }
